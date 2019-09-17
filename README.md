@@ -22,6 +22,7 @@ To break, replace the generic-minimal module with a symlinked version, as if you
 cd generic-minimal
 npm install
 cd ..
+rm -rf node_modules/generic-minimal
 ln -s "$(pwd)/generic-minimal" node_modules/generic-minimal
 ```
 
