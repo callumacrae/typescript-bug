@@ -19,11 +19,15 @@ This should work (this time).
 To break, replace the generic-minimal module with a symlinked version, as if you were using npm link:
 
 ```
+# Replace generic-minimal with symlinked version
 cd generic-minimal
 npm install
 cd ..
 rm -rf node_modules/generic-minimal
 ln -s "$(pwd)/generic-minimal" node_modules/generic-minimal
+
+# Symlink vue back out again so that both refer to the same version of vue
+ln -s "$(pwd)/node_modules/vue" node_modules/generic-minimal/node_modules/vue
 ```
 
 Now, when you run the build, you see the following error:
