@@ -14,9 +14,9 @@
     "vue-server-renderer": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-typescript": "^3.11.0",
-    "@vue/cli-service": "^3.11.0",
+    "@vue/cli-service": "^5.0.8",
     "babel-core": "7.0.0-bridge.0",
     "typescript": "^3.7.0-dev.20190917",
     "vue-template-compiler": "^2.6.10",
